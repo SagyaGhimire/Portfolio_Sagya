@@ -1,0 +1,227 @@
+html{
+	background-color: whitesmoke;
+}
+nav{
+overflow:hidden;
+background-color: gainsboro;
+color:black;
+}
+ul{
+float:right;
+}
+
+li{
+float:left;
+margin:12px;
+list-style:none;
+}
+
+body{
+background: dimgray;
+}
+
+.hero{
+float:left;
+color:white;
+overflow:hidden;
+background:dimgray;
+}
+.herogreeting{
+margin:20px;
+font-size:42px;
+font-style: italic ;
+font-family: sans-serif;
+}
+.heroname{
+font-size:52px;
+margin:15px;
+font-style: italic;
+font-family: sans-serif;
+}
+.picture{
+float:right;
+}
+
+.aboutmesection{
+background:dimgrey;
+clear:both;
+font-size: 23px;
+text-align: center;
+margin-top:300px;
+}
+.aboutmesection p {
+    width: 60%;
+    color:black;
+    font-size:18px;
+    margin: 0 auto;
+}
+.about{
+ font-family: "Georgia", serif;
+color:black;
+}
+
+.qualifytable {
+    margin-top: 100px;
+    font-size: 23px;
+    text-align: center;
+    font-family: "Georgia", serif;
+    color:black;
+}
+table{
+    width: 70%;
+    margin: 0 auto;  
+    border-collapse: collapse;
+    background: #968f9c;
+    border:2px solid rgb(86, 68, 104);
+    border-radius: 3px;
+    overflow: hidden;  
+}
+th,td{
+padding:12px;
+background: #b3adb8;
+border: 1px solid #b8aef5;
+text-align:left;
+}
+th{
+background-color:rgb(127, 127, 135);
+color:black;
+}
+table tr {
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+table tr:hover {
+    transform: scale(1.02);
+    background-color: #6f6f6f;
+    color: white;
+}
+
+
+
+.interestwrap {
+    margin-top: 40px;
+    text-align: center;
+}
+.interest {
+    display: flex;       
+    align-items: stretch;
+    gap: 20px; 
+    flex-direction: column;                   
+    padding: 30px 20px;
+    flex-wrap: wrap;               
+}
+
+.logo {
+    background: #d7d7d7;        
+    width: 380px;
+    padding: 25px;
+    border-radius: 14px;
+    text-align: center;
+    color: #222;                
+    font-family: "Segoe UI", sans-serif;
+    box-shadow: 0px 8px 18px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.logowrap {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: nowrap;
+}
+.logo:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 12px 22px rgba(0,0,0,0.22);
+}
+.logo i {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #111;
+}
+.logo h2 {
+    margin: 15px 0 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #111;
+}
+.logo p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+    color: #222;
+}
+.maindescrip h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+    color: #111;
+    font-family: "Georgia", serif;
+}
+ 
+
+.formsection{
+    text-align: center;
+    align-items: center;
+    color:black;
+    margin-top: 65px;
+}
+form{
+     width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+}
+.form_wrapper {
+    display: flex;
+    justify-content: center;
+}
+form label {
+    text-align: left;
+}
+button{
+padding:10px;
+border-radiuS:3px;
+background-color: rgb(105,199,223);
+color:black;
+margin-top: 5px;
+cursor: pointer;
+}
+.button:hover{
+background-color:blueviolet;
+color: white;
+}
+
+
+.connection{
+    text-align:center;
+    margin-top:50px;
+}
+.connect{
+color:black;
+}
+
+
+footer{
+    margin-top:50px;
+    text-align:center;
+}
+.copyright{
+    color:black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.copyright h5{
+    margin: 0;
+}
+.copyright i {
+    font-size: 22px;
+}
+.end{
+    color:black;
+    text-align:center;
+    margin-top:40px;
+}
+
