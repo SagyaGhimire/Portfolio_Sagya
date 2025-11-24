@@ -1,5 +1,12 @@
 html{
+    overflow-x: hidden;
 	background-color: whitesmoke;
+    width:100%;
+}
+body{
+background: dimgray;
+width:100%;
+overflow-x:hidden;
 }
 nav{
 overflow:hidden;
@@ -9,16 +16,13 @@ color:black;
 ul{
 float:right;
 }
-
 li{
 float:left;
 margin:12px;
 list-style:none;
 }
 
-body{
-background: dimgray;
-}
+
 
 .hero{
 float:left;
@@ -225,3 +229,64 @@ footer{
     margin-top:40px;
 }
 
+
+
+@media (max-width: 768px) {
+
+    body, html {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    nav ul {
+        float: none;
+        text-align: center;
+    }
+
+    li {
+        float: none;
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .hero {
+        float: none;
+        text-align: center;
+    }
+
+    .picture {
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .picture img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .aboutmesection p {
+        width: 90%;
+    }
+
+    table {
+        width: 95%;
+    }
+
+    .logowrap {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 90%;
+    }
+
+    form {
+        width: 90%;
+    }
+}
+table, .logowrap, .logo {
+    max-width: 100%;
+}
