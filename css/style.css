@@ -285,3 +285,9 @@ footer{
 table, .logowrap, .logo {
     max-width: 100%;
 }
+
+
+.picture img {
+    position: relative;
+    z-index: 10;
+}
